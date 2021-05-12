@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<header>
+
+<style> 
+
+#number{margin:20px}
+
+</style>
+</header>
+
+
+<body>
+
+this is my web
+
+
+<form>
+
+name:<input type="text" id="name" />
+
+surname:       <input type="text" id="surname"/>
+
+<input type="button"  value="show on the alert"   onclick="alert1()" />
+<br>
+
+number:<input type="text" id="number" />
+ <input type="button" value="even/odd" onclick="evenOdd()"/>
+
+
+
+
+
+</form>
+
+<script>
+
+function alert1(){
+
+let name1=document.getElementById("name").value;
+
+let surname1=document.getElementById("surname").value;
+
+alert("your name is:"+name1+" your surname is "+surname1);
+
+}
+
+</script>
+
+<script   src="index.js">    </script>
+
+</body>
+</html>
